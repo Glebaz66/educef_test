@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .header {
     height: 100px;
     border-bottom: 2px solid #fcfcfc;
@@ -153,7 +156,7 @@
 .card {
     padding: 0;
     margin: 0 15px 0 30px;
-    max-width: 260px;
+    max-width: 270px;
     position: relative;
 }
 .card::after {
@@ -166,7 +169,7 @@
     line-height: 15px;
     border-radius: 4px;
     position: absolute;
-    top: 149px;
+    top: 153px;
     left: 50px;
 }
 .cards {
@@ -180,6 +183,7 @@
     text-transform: capitalize;
     font-size: 23px;
     color: #42495b;
+    cursor: default;
 }
 .card-user-img {
     height: 63%;
@@ -194,6 +198,7 @@
     padding-bottom: 15px;
     color: #888888;
     line-height: 24px;
+    cursor: default;
 }
 .share-like::before {
     content: "";
