@@ -149,3 +149,74 @@
     transform: rotate(45deg);
 }
 /* -------------------------------------------------checkbox-------------------------------------------- */
+/* cards    */
+.card {
+    padding: 0;
+    margin: 0 15px 0 30px;
+    max-width: 260px;
+    position: relative;
+}
+.card::after {
+    content: "BUNDL";
+    display: block;
+    padding: 5px 15px;
+    background-color: #ff9142;
+    color: #fff;
+    text-align: center; 
+    line-height: 15px;
+    border-radius: 4px;
+    position: absolute;
+    top: 149px;
+    left: 50px;
+}
+.cards {
+    position: relative;
+    margin-bottom: 70px;
+}
+.card-header {
+    margin: 12px 0;
+    border: 0;
+    background-color: #fff;
+    text-transform: capitalize;
+    font-size: 23px;
+    color: #42495b;
+}
+.card-user-img {
+    height: 63%;
+}
+.card-user-text {
+    width: 65px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    color: #888888;
+}
+.share {
+    padding-bottom: 15px;
+    color: #888888;
+    line-height: 24px;
+}
+.share-like::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    background: url(../img/icon-heart.jpg) no-repeat;
+}
+.share-sales::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    background: url(../img/icon-peoplet.jpg) no-repeat;
+}
+.share-prise {
+    font-size: 20px;
+    color: #07d79b;
+}
+/* cards    */
