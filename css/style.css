@@ -225,3 +225,30 @@ body {
     color: #07d79b;
 }
 /* cards    */
+/* footer */
+.footer-links ul li{
+    list-style: none;
+}
+.footer-links-item {
+    color: #434956;
+    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+}
+.footer-links-item:hover {
+    color: #727272;
+    
+}
+svg {
+    width: 30px;
+    height: 30px;
+}
+.custom-svg {
+    fill: #434956;
+    border-radius: 5px;
+}
+.custom-svg:hover {
+    opacity: 0.5;
+}
+/* footer */
