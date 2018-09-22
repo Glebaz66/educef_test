@@ -226,29 +226,103 @@ body {
 }
 /* cards    */
 /* footer */
+.footer {
+    background-color: #343a48;
+    padding: 48px 0;
+}
 .footer-links ul li{
     list-style: none;
 }
-.footer-links-item {
-    color: #434956;
-    border-radius: 5px;
-    width: 10px;
-    height: 10px;
-    font-size: 20px;
+a .footer-links-item {
+    width: 36px;
+    height: 36px;
 }
-.footer-links-item:hover {
-    color: #727272;
+.footer-logo > img {
+    margin-bottom: 15px;
+}
+.footer-adress {
+
+}
+.footer-adress-text {
+    color: #8f97ad;
+    cursor: default;
+}
+.footer-links .footer-links-item:hover img {
+    opacity: 0;
+}
+.linked {
+    background: url(../img/linked.png) no-repeat;
+}
+.linked:hover {
+    background: url(../img/linked-hov.png) no-repeat;
+}
+.facebook {
+    background: url(../img/facebook.png)
+}
+.facebook:hover {
+    background: url(../img/facebook-hov.png) no-repeat;
+}
+.tweeter {
+    background: url(../img/tweet.png)
+}
+.tweeter:hover {
+    background: url(../img/tweet-hov.png) no-repeat;
+}
+.google {
+    background: url(../img/google.png)
+}
+.google:hover {
+    background: url(../img/google-hov.png) no-repeat;
+}
+.youtube {
+    background: url(../img/youtube.png)
+}
+.youtube:hover {
+    background: url(../img/youtube-hov.png) no-repeat;
+}
+.pinterest {
+    background: url(../img/pint.png)
+}
+.pinterest:hover {
+    background: url(../img/pint-hov.png) no-repeat;
+}
+.footer-menu-heading {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 23px;
+    cursor: default;
+}
+.footer-menu-list {
+    list-style: none;
+    padding: 0;
+}
+.footer-menu-list-item {
+    margin-bottom: 6px;
     
 }
-svg {
-    width: 30px;
-    height: 30px;
+.footer-menu-list-link {
+    color: #929bb3;
+    
 }
-.custom-svg {
-    fill: #434956;
-    border-radius: 5px;
+.footer-menu-list-link:hover {
+    color: #00d89a;
+    text-decoration: none;
 }
-.custom-svg:hover {
-    opacity: 0.5;
+.footer-contacts-heading {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 23px;
+}
+.footer-contacts-text {
+    color: #929bb3;
+}
+.footer-contacts-link {
+    color: #fff;
+    font-size: 15px;
+}
+.footer-contacts-link:hover {
+    color: #fff;
+    text-decoration: none;
 }
 /* footer */
