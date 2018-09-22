@@ -84,7 +84,98 @@ body {
     transform: rotate(90deg);
     на что вешать ховер чтоб повернуть афтер 
 } */
-
+.category {
+    font-size: 16px;
+    color: #c7c9cf;
+    text-transform: uppercase;
+}
+.category::before {
+    content: url(../img/icon-quest.png);
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 4px;
+}
+.status {
+    height: 30px;
+    position: relative;
+    align-self: end;
+}
+.status-like {
+    background: url(../img/icon-heart.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 70%;
+}
+.status-cart {
+    background: url(../img/icon-cart.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: 70%;
+}
+.status-like::after {
+    content: "02";
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -7px;
+    left: 23px;
+    background-color: #daf9f0;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px; 
+}
+.status-cart::after {
+    right: 0px;
+    content: "20";
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -7px;
+    right: 5px;
+    background-color: #daf9f0;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+}
+.btn-custom {
+    width: 30%;
+    background-color: #07d79b;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.autorisation {
+    list-style: none;
+    line-height: 10px;
+}
+.autorisation-sing-in,
+.autorisation-sing-up {
+    /* color: #bdc0c6; */
+}
+.autorisation-sing-in {
+    border-right: 1px solid #bdc0c6;
+    padding-right: 17px;
+}
+.autorisation-sing-in-link,
+.autorisation-sing-up-link {
+    font-size: 16px;
+    color: #bdc0c6;
+    text-transform: uppercase;
+}
+.autorisation-sing-in-link:hover,
+.autorisation-sing-up-link:hover {
+    text-decoration: none;
+    color: #9c9fa4;
+}
+.form-inline .form-control {
+    width: 40%;
+}
 
 /* -------------------------------------------------checkbox-------------------------------------------- */
 .container-ch {
